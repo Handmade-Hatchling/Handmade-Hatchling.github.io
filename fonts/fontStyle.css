@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot'),
+
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-Regular-webfont.woff') format('woff'),
+        url('OpenSans-Regular-webfont.ttf') format('truetype'),
+        url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('OpenSans-Italic-webfont.eot');
+    src: url('OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Italic-webfont.woff') format('woff'),
+         url('OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('OpenSans-Italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('OpenSans-Bold-webfont.eot');
+    src: url('OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Bold-webfont.woff') format('woff'),
+         url('OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'archisticobold';
+    src: url('Archistico_Bold-webfont.eot');
+    src: url('Archistico_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Archistico_Bold-webfont.woff') format('woff'),
+         url('Archistico_Bold-webfont.ttf') format('truetype'),
+         url('Archistico_Bold-webfont.svg#archisticobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sonsie_oneregular';
+    src: url('sonsietwoish-regular-webfont.eot');
+    src: url('sonsietwoish-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sonsietwoish-regular-webfont.woff') format('woff'),
+         url('sonsietwoish-regular-webfont.ttf') format('truetype'),
+         url('sonsietwoish-regular-webfont.svg#sonsie_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

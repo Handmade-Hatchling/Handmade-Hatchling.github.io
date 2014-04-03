@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+
+	<title>
+		Handmade Hatchling - contact
+	</title>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#menu-icon').click(function() {
+				$('#navPhoneMenu').slideToggle(300);
+			})//end click function
+		});//end document.ready
+	</script>
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+		<div id="nav">
+
+			<div id="navHeader">
+				<h1>Handmade Hatchling</h1>
+			</div>
+
+			<a href="#" id="menu-icon"></a>
+
+			<ul id="navPhoneMenu">
+				<li><a href="index.html">home</a></li>
+				<li><a href="gallery.html">gallery</a></li>
+				<li><a href="resume.html">resume</a></li>
+				<li><a href="contact.html" class="urhere">contact</a></li>
+			</ul>
+
+		</div> <!-- end nav div -->
+
+		<div id="header">
+
+			<h1>Handmade Hatchling<br><span>Contact</span> </h1>
+
+		</div> <!-- end header div -->
+
+		<div id="content">
+
+			<img src="images/can-phone.jpg" alt="Contact" title="Contact" style="display:block; float:right;">
+
+			<div id="submission_form" class="cssTable">
+
+				<form action="email.php" method="POST" accept-charset="utf-8">
+					<div class="cssRow">
+						<span class="cssCell">
+
+							<input type="text" required name="visitor_name" placeholder="Your name here">
+
+							<select name="select">
+								<option value="personal">Personal</option>
+								<option value="business">Business</option>
+								<option value="photography">Photography</option>
+
+							</select>
+						</span>
+					</div>
+
+					<div class="cssRow">
+						<span class="cssCell">
+
+							<input type="email" required name="visitor_email" placeholder="Your email address here">
+
+						</span>
+					</div>
+
+					<div class="cssRow">
+
+						<span class="cssCell">
+
+							<textarea name="message" style="width:30em; height:15em;"></textarea>
+
+						</span>
+					</div>
+
+					<div class="cssRow">
+
+						<span class="cssCell">
+
+							<input type="submit" name="submit" value="submit">
+
+						</span>
+					</div>
+				</form>
+
+			</div>
+
+			<br>
+
+			<div id="contact_info" class="cssTable">
+				<div class="cssRow">
+					<span class="cssCell">Email me at:</span>
+
+					<span class="cssCell">OR</span>
+
+					<span class="cssCell">call me on my Cell:</span>
+				</div>
+
+				<div class="cssRow">
+					<span class="cssCell"><a href="mailto:*REMOVE*dahl8677@student.cptc.edu">dahl8677@student.cptc.edu</a></span>
+
+					<span class="cssCell">&nbsp;</span>
+
+					<span class="cssCell">(253) 353-2451</span>
+				</div>
+			</div>
+
+			<br>
+
+			<!--***************************** START CALENDAR-->
+			<table id="calendar">
+				<tr id="title">
+					<th id="lastmonth"><a href="jun2014.html">&laquo;</a></th>
+					<th colspan="5" id="thismonth">July 2014</th>
+					<th id="nextmonth"><a href="aug2014.html">&raquo;</a></th>
+				</tr>
+				<tr id="days">
+					<th class="sun">Sun</th>
+					<th class="mon">Mon</th>
+					<th class="tue">Tue</th>
+					<th class="wed">Wed</th>
+					<th class="thu">Thu</th>
+					<th class="fri">Fri</th>
+					<th class="sat">Sat</th>
+				</tr>
+				<tr id="firstweek">
+					<td class="jun sun">
+						<div class="date">29</div>
+					</td>
+					<td class="jun mon">
+						<div class="date">30</div>
+					</td>
+					<td class="jul tue">
+						<div class="date">1</div>
+						<div class="event recur">
+							<span class="time">2:00pm</span>
+							<span class="title">Children's Hour</span>
+							<span class="loc">Main Street Public Library</span>
+						</div>
+					</td>
+					<td class="jul wed">
+						<div class="date">2</div>
+					</td>
+					<td class="jul thu">
+						<div class="date">3</div>
+						<div class="event recur">
+							<span class="time">7:00pm</span>
+							<span class="title">Beginner's T'ai Chi</span>
+							<span class="loc">Civic Center</span>
+						</div>
+					</td>
+					<td class="jul fri holiday">
+						<div class="date">4</div>
+						<div class="event">
+							<span class="time">10:00am</span>
+							<span class="title">4th of July Parade</span>
+							<span class="loc">Main Street</span>
+						</div>
+						<div class="event">
+							<span class="time">9:30pm</span>
+							<span class="title">Fireworks!</span>
+							<span class="loc">Meadowlands Park</span>
+						</div>
+						<div class="holiday">Independence Day (U.S.)</div>
+					</td>
+					<td class="jul sat">
+						<div class="date">5</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="jul sun">
+						<div class="date">6</div>
+					</td>
+					<td class="jul mon">
+						<div class="date">7</div>
+						<div class="event">
+							<span class="time">1:00pm</span>
+							<span class="title">Annual community picnic</span>
+							<span class="loc">Fairview Park Pavilion</span>
+						</div>
+					</td>
+					<td class="jul tue">
+						<div class="date">8</div>
+						<div class="event recur">
+							<span class="time">2:00pm</span>
+							<span class="title">Children's Hour</span>
+							<span class="loc">Main Street Public Library</span>
+						</div>
+					</td>
+					<td class="jul wed">
+						<div class="date">9</div>
+					</td>
+					<td class="jul thu">
+						<div class="date">10</div>
+						<div class="event recur">
+							<span class="time">7:30pm</span>
+							<span class="title">Advanced T'ai Chi</span>
+							<span class="loc">Civic Center</span>
+						</div>
+						<div class="event recur">
+							<span class="time">8:00pm</span>
+							<span class="title">Basic CPR</span>
+							<span class="loc">Civic Center</span>
+						</div>
+					</td>
+					<td class="jul fri">
+						<div class="date">11</div>
+						<div class="event">
+							<span class="time">9:30am</span>
+							<span class="title">"Ride the Parks" Fundraiser</span>
+							<span class="loc">Fairview Park</span>
+						</div>
+					</td>
+					<td class="jul sat">
+						<div class="date">12</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="jul sun">
+						<div class="date">13</div>
+					</td>
+					<td class="jul mon">
+						<div class="date">14</div>
+						<div class="event">
+							<span class="time">6:00pm</span>
+							<span class="title">City Council Open Forum</span>
+							<span class="loc">Council Chambers</span>
+						</div>
+					</td>
+					<td class="jul tue">
+						<div class="date">15</div>
+						<div class="event recur">
+							<span class="time">2:00pm</span>
+							<span class="title">Children's Hour</span>
+							<span class="loc">Main Street Public Library</span>
+						</div>
+					</td>
+					<td class="jul wed" id="jul16">
+						<div class="date">16</div>
+					</td>
+					<td class="jul thu">
+						<div class="date">17</div>
+						<div class="event recur">
+							<span class="time">7:00pm</span>
+							<span class="title">Beginner's T'ai Chi</span>
+							<span class="loc">Civic Center</span>
+						</div>
+					</td>
+					<td class="jul fri">
+						<div class="date">18</div>
+						<div class="event recur">
+							<span class="time">10:30pm</span>
+							<span class="title">Stargazing Symposium</span>
+							<span class="loc">Meadowlands Park</span>
+						</div>
+					</td>
+					<td class="jul sat">
+						<div class="date">19</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="jul sun">
+						<div class="date">20</div>
+					</td>
+					<td class="jul mon">
+						<div class="date">21</div>
+					</td>
+					<td class="jul tue">
+						<div class="date">22</div>
+						<div class="event recur">
+							<span class="time">2:00pm</span>
+							<span class="title">Children's Hour</span>
+							<span class="loc">Main Street Public Library</span>
+						</div>
+						<div class="event">
+							<span class="time">8:00pm</span>
+							<span class="title">The Bear Facts: All About Our Ursine Friends</span>
+							<span class="loc">Main Street Public Library</span>
+						</div>
+					</td>
+					<td class="jul wed">
+						<div class="date">23</div>
+					</td>
+					<td class="jul thu">
+						<div class="date">24</div>
+						<div class="event recur">
+							<span class="time">7:30pm</span>
+							<span class="title">Advanced T'ai Chi</span>
+							<span class="loc">Civic Center</span>
+						</div>
+						<div class="event">
+							<span class="time">12:00n</span>
+							<span class="title">Picnic and Nature Hike For Kids</span>
+							<span class="loc">Fairview Park Pavilion</span>
+						</div>
+					</td>
+					<td class="jul fri">
+						<div class="date">25</div>
+					</td>
+					<td class="jul sat">
+						<div class="date">26</div>
+					</td>
+				</tr>
+				<tr id="lastweek">
+					<td class="jul sun">
+						<div class="date">27</div>
+					</td>
+					<td class="jul mon">
+						<div class="date">28</div>
+					</td>
+					<td class="jul tue">
+						<div class="date">29</div>
+						<div class="event recur">
+							<span class="time">2:00pm</span>
+							<span class="title">Children's Hour</span>
+							<span class="loc">Main Street Public Library</span>
+						</div>
+					</td>
+					<td class="jul wed">
+						<div class="date">30</div>
+					</td>
+					<td class="jul thu">
+						<div class="date">31</div>
+						<div class="event recur">
+							<span class="time">7:00pm</span>
+							<span class="title">Beginner's T'ai Chi</span>
+							<span class="loc">Civic Center</span>
+						</div>
+					</td>
+					<td class="aug fri">
+						<div class="date">1</div>
+					</td>
+					<td class="aug sat">
+						<div class="date">2</div>
+					</td>
+				</tr>
+
+			</table>
+			<!-- *****************************END CALENDAR-->
+
+			<br class="clearFloat">
+
+		</div> <!-- end content div -->
+
+		<div id="footer">
+
+			<p>
+				<a href="index.html">home</a> |
+				<a href="gallery.html">gallery</a> |
+				<a href="resume.html">resume</a> |
+				<a href="contact.html">contact</a>
+			</p>
+
+			<p> &copy;2014 Jennifer, the Parker</p>
+
+		</div> <!-- end footer div -->
+
+	</div> <!-- end wrapper div -->
+
+</body>
+
+</html>
